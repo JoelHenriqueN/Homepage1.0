@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Ex1</title>
+	</head>
+	<body>
+		<form method="post" action="mailto:joelimail123@gmail.com">
+			<fieldset>
+				<legend>Identificação do Usário</legend>
+				<p><label for="Nome">Digite seu nome:</label>
+				<input type="text" name="Nome" id="Nome" size="20" maxlength="6" placeholder="nome completo"/></p>
+				<p><label for="Senha">Digite sua senha:</label>
+				<input type="password" name="Senha" id="Senha" size="8" maxlength="8" placeholder="8 dígitos"/></p>
+				<p><label for="email">Digite seu email:</label>
+				<input type="email" name="email" id="email" size="30" maxlength="100" placeholder="email"/></p>
+				<fieldset><legend>Sexo:</legend>
+					<input type="radio" name="sexo" id="Masc" checked/><label for="Masc">Masculino</label>
+					<br><br>
+					<input type="radio" name="sexo" id="Fem" checked/><label for="Fem">Feminino</label>
+				</fieldset>
+				<p>Data de Nascimento:<input type="date" name="Data" id="Data"/></p>
+				<p>Escolha suas preferencia:</p>
+				<p><input type="checkbox" name="Pref" value="esporte" checked/>Esporte</p>
+				<p><input type="checkbox" name="Pref" value="noticias" checked/>Noticias</p>
+				<p><input type="checkbox" name="Pref" value="jogos" checked/>Jogos</p>
+			</fieldset>
+		</form>
+	</body>
+</html>

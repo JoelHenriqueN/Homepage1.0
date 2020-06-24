@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+h2{
+    text-align: center;
+    align-content: center;
+    width: 1000px;
+    padding:10px;
+	font-family: Arial;
+    font-size: 30pt;
+	color: #004FE4;
+}
+#textex{
+	text-align: center;
+    align-content: center;
+    width: 600px;
+    padding: 9px;
+	font-family: Arial;
+    font-size: 15pt;
+	color: #004FE4;
+	
+}
+#Texto{
+    text-align: center;
+    align-content: center;
+    width: 600px;
+    padding:10px;
+	font-family: Arial;
+    font-size: 15pt;
+	color: #004FE4;
+}
+#Lista{
+    width: 500px;
+    padding:30px;
+	font-family: Arial;
+    font-size: 25pt;
+	color: #0362B0;
+	
+}
+h4{
+    text-align: center;
+    align-content: center;
+    width: 700px;
+    padding:40px;
+	font-family: Arial;
+    font-size: 15pt;
+	color: #0362B0;
+}
+#Rodapé{
+	text-align: center;
+    align-content: center;
+    width: 700px;
+    padding:40px;
+	font-family: Arial;
+    font-size: 15pt;
+	color: #0362B0;
+}
+#imagem{
+	background: #003380;
+    color: #003380;
+    padding: 10px;
+}
+
+body{
+    background-color: #00C5FF;
+}
+
+#check{
+    display: none;
+
+}
+
+#icone{
+    cursor: pointer;
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+
+.barra{
+    background-color: #00C5FF;
+    height: 100%;
+    width: 300px;
+    position: absolute;
+    transition: all .2s linear;
+    Left:-300px;
+}
+
+nav{
+    width: 100%;
+    position: absolute;
+    top: 60px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.link{
+    background-color: #0070FF;
+    padding: 20px;
+    font-family: 'Arial';
+    font-size: 20pt;
+    transition: all .2s linear;
+    color: #003380;
+    border-bottom: 2px solid #222;
+    opacity: 0;
+    margin-top: 200px;
+}
+
+.link:hover{
+    background-color: #296FC8;
+}
+#check:checked ~ .barra{
+    transform: translateX(300px);
+}
+
+#check:checked ~ .barra nav a .link{
+    opacity: 1;
+    margin-top: 0;
+    transition-delay: .2s;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

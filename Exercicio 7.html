@@ -1,0 +1,29 @@
+<html>
+     <head>
+          <title> Exercicio 7 </title>
+          <meta charset="UTF-8">
+            <script type="text/javascript">
+			var a=1;
+			function tab(){
+			var b = document.getElementById("num1").value;
+
+			for(cont=0; cont<10; cont++){
+			for(conta=0; conta<=10;conta++){
+			var result=a*b;
+			if(conta==10){
+			document.write(b+"x"+a+"="+result);
+			document.write("<br>");
+			a++;
+			}
+			}
+			}
+			}
+			</script>
+     </head>
+       <body>
+          <p> Digite um número para visualizar a sua tabuada</p>
+          <input id="num1" type="number">
+          <button onclick="tab()">ok</button>
+            </script>
+       </body>
+</html>
